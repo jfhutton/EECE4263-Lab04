@@ -36,7 +36,7 @@ void dummyFunction();
 void setup() {
   // Serial terminal for debug and interaction
   Serial.begin(115200);
-
+  Serial.print("\nSerial ready!\n");
 
 }
 
