@@ -25,10 +25,10 @@ void dummyFunction();
 
 /* Program Globals*/
 #define DEBOUNCE_INTERVAL      40
-#define AButtonPin 21 // ESP8266 D1
-#define BButtonPin 17 // ESP8266 D2
-#define CButtonPin 16 // ESP8266 D5
-#define DButtonPin 19 // ESP8266 D6
+#define AButtonPin 21 // ESP32 IO21
+#define BButtonPin 17 // ESP32 IO17
+#define CButtonPin 16 // ESP32 IO16
+#define DButtonPin 19 // ESP32 MISO
 
 // Variables
 
